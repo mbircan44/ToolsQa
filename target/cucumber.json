@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-11T09:37:18.857Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.toolsqa.step_definition.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Abc",
+        "description": "",
+        "id": "alerts-options;abc",
+        "after": [
+          {
+            "result": {
+              "duration": 1936142800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.toolsqa.step_definition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10152092400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user is on the main page",
+            "match": {
+              "location": "com.toolsqa.step_definition.AllertsStepDefs.the_user_is_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 334936900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should be able to click the \"Widgets\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Widgets\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.toolsqa.step_definition.AllertsStepDefs.theUserShouldBeAbleToClickTheButton(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3334017600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user click on the \"Slider\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Slider\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.toolsqa.step_definition.AllertsStepDefs.theUserClickOnTheButton(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Alerts Options",
+    "description": "",
+    "id": "alerts-options",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Alerts.feature",
+    "tags": []
+  }
+]
