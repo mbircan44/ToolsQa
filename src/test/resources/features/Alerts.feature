@@ -10,3 +10,7 @@ Scenario: Abc
     Given The user is on the main page
     Then The user should be able to click the "Widgets" button
     And The user click on the "Slider" button
+
+
+  bjjjklnlklklknlknkn
+  nknknnlmmlm
