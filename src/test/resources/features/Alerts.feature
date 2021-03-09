@@ -12,4 +12,3 @@ Scenario: Abc
     And The user click on the "Slider" button
 
 
-gdsggggdgd
